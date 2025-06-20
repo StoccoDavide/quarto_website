@@ -1,0 +1,13 @@
+---
+title: "Who I Am"
+description: "A brief introduction to my travel journey"
+format:
+  html:
+    toc: false
+---
+
+# About Me
+
+I am a passionate traveler who believes in the transformative power of exploring new places and cultures. My journey began with a backpack and a dream, and it has taken me to some of the most beautiful corners of the world.
+
+[]

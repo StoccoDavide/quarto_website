@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My travel blog"
+  navbar: # Barra per navigare sulle pagine del sito
+    search: true
+    left:
+      - text: "Home"
+        file: home.qmd
+      - text: "Travels"
+        menu:
+        - text: "Italy 2022"
+          icon: github
+          file: content/italy_2022.qmd
+        - text: "France 2023"
+          file: content/france_2023.qmd
+      - text: "About"
+        file: about.qmd
+
+format:
+  html:
+    theme: pulse
+    toc: true
+    toc-depth: 2
+    toc-location: left
+
+
+
+
+
